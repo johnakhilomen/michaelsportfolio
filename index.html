@@ -1,86 +1,65 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+      rightmenu{
+        color: #3273a8;
+      }
+      .icon
+      {
+        width: 16px;
+        height: 16px;
+      }
+      a
+      {
+        color: #3273a8;
+      }
+      Avatarsection
+      {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        margin-top: 2em;
+        text-align: center;
+        margin-left: 40%;
+
+      }
+      Avatarsection > h1 > img
+      {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        /*float: left;*/
+      }
+    </style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- jQuery first, then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Importing Bootstrap CSS library into our project -->
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link href="css/fontawesome.css" rel="stylesheet">
-    <link href="css/brands.css" rel="stylesheet">
-    <link href="css/solid.css" rel="stylesheet">
-
-    <style>
-        .bg-light {
-            background-color:#FF5733 !important;
-            color: whitesmoke;
-        };
-        a 
-        {
-            color: white;
-            text-decoration: none;
-            background-color: transparent;  
-        }
-        .iconclass
-        {
-            width:32px;
-            height: 32px;
-         }
-    </style>
-
-    <title>Michael's Portfolio!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Ryan's Portfolio</title>
   </head>
   <body>
-   
-    
+    <!-- As a heading -->
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1" style="color: #3273a8;">Michael's portfolio</span>
+    <rightmenu>
+      |<a href="index.html"><img src="images/icons/home.png" class="icon"> Home </a>|
+      |<a href="aboutme.html"><img src="images/icons/about.png" class="icon">About me</a>|
+      |<a href="portfolio.html"><img src="images/icons/briefcase.png" class="icon">My portfolio</a>|
+      |<a href="contactme.html"><img src="images/icons/contact.png" class="icon">Contact me</a>|
+    </rightmenu>
+  </nav>
+ <Avatarsection>
 
-    <div class="container">
- 
-   <!--Header-->     
-   <div class="row">
-        <div class="col-lg">
-            
-        <!-- Image and text -->
-        <nav class="bg-light" style="height: 100px;">
-            <a class="navbar-brand" href="#" style="color: white;">
-                <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-                Michael Ho!
-            </a>
-
-            <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 3em; margin-left: 2em; float: right;">
-                <button type="button" class="btn btn-secondary"><img src="images/home.png" class="iconclass">Home</button>
-                <button type="button" class="btn btn-secondary"><img src="images/about.png" class="iconclass">About me</button>
-                <button type="button" class="btn btn-secondary"><img src="images/briefcase.png" class="iconclass">Briefcase</button>
-                <button type="button" class="btn btn-secondary"><img src="images/contact.png" class="iconclass">Contact me</button>
-            </div>
-
-          
-        </nav>
-
-            
-        </div>
-   </div>
-
-     <!--Body-->     
-     <div class="row">
-        <div class="col-lg">
-            Body
-        </div>
-   </div>
-
-     <!--Footer-->     
-     <div class="row">
-        <div class="col-lg">
-           Footer
-        </div>
-   </div>
- 
-</div>
-
-   
+   <h1><img src="images/icons/avatar.png" alt="Ryan!" width="50" height="50">Ryan Doremus</h1>
+   <p class ="lead">Hey there, My name is Michael. Thanks for checking out my portfolio.
+     <br>This is my home page where I share more info about me and my hobbies. </p>
+ </Avatarsection>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
   </body>
 </html>
