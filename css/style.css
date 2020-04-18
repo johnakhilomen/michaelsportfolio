@@ -37,7 +37,21 @@ Footer {
 table {
   margin-top: 2%;
 }
-h2{
+.container {
+    padding: 20px 40px 20px;
+}
+    .aboutmeimage {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        margin: 20px 30px 0 0;
+    }
+    .aboutmetext {
+      display: inline-block;
+      width: 46%;
+    }
+
+h2 {
   font-family: 'Ubuntu', sans-serif;
   padding: 10px;
   margin-top: 2%;
