@@ -56,3 +56,14 @@ h2 {
   padding: 10px;
   margin-top: 2%;
 }
+.PortfolioHeader {
+  font-family: sans-serif;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.Shyclo {
+  display: block;
+  margin: 0 auto;
+  width: 35%
+}
